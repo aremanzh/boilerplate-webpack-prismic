@@ -1,35 +1,44 @@
 @font-face {
-  font-family: $font-suisse-bp;
-  src: url('../fonts/suisseintl-ultralight.woff2') format('woff2'),
-      url('../fonts/suisseintl-ultralight.woff') format('woff');
+  font-family: $font-roboto-slab;
+  src: url('../fonts/robotoslab-light.woff2') format('woff2'),
+      url('../fonts/robotoslab-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-roboto-slab;
+  src: url('../fonts/robotoslab-extralight.woff2') format('woff2'),
+      url('../fonts/robotoslab-extralight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: $font-suisse-bp;
-  src: url('../fonts/suisseintl-regular.woff2') format('woff2'),
-      url('../fonts/suisseintl-regular.woff') format('woff');
+  font-family: $font-roboto-slab;
+  src: url('../fonts/robotoslab-bold.woff2') format('woff2'),
+      url('../fonts/robotoslab-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-roboto-slab;
+  src: url('../fonts/robotoslab-regular.woff2') format('woff2'),
+      url('../fonts/robotoslab-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: $font-george-x;
-  src: url('../fonts/georgesignature-regular.woff2') format('woff2'),
-      url('../fonts/georgesignature-regular.woff') format('woff');
+  font-family: $font-rochester;
+  src: url('../fonts/rochester-regular.woff2') format('woff2'),
+      url('../fonts/rochester-regular.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: $font-suisse-bp;
-  src: url('../fonts/suisseintl-light.woff2') format('woff2'),
-      url('../fonts/suisseintl-light.woff') format('woff');
-  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
