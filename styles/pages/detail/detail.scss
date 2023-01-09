@@ -1,0 +1,100 @@
+.detail {
+  @extend %cover;
+  @extend %center;
+
+  background: $mandys-pink;
+  color: $color-black;
+}
+.detail__wrapper {
+  align-items: center;
+  display: flex;
+}
+.detail__media {
+  height: 78.2rem;
+  position: relative;
+  width: 55.4rem;
+}
+.detail__media__image {
+  @extend %cover;
+  object-fit: cover;
+}
+.detail__information {
+  padding-left: 8.2rem;
+}
+.detail__information__collection {
+  @extend %description-12;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+}
+.detail__information__title {
+  @extend %title-120;
+
+  max-width: 60rem;
+}
+.detail__information__content {
+  padding-left: 18rem;
+}
+.detail__information__highlights {
+  margin-top: 6rem;
+}
+.detail__information__highlight {
+  align-items: center;
+  display: flex;
+
+  &:not(:first-child) {
+    margin-top: 4rem;
+  }
+}
+.detail__information__hightlight__icon {
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  height: 4rem;
+  margin-right: 3.75rem;
+  width: 4rem;
+}
+.detail__information__highlight__text {
+  @extend %description-16;
+  letter-spacing: 0.03rem;
+}
+.detail__information__list {
+  margin-top: 4rem;
+}
+.detail__information__item {
+  display: flex;
+
+  &:not(:first-child) {
+    margin-top: 4rem;
+  }
+}
+.detail__information__item__title {
+  @extend %description-12;
+  width: 10rem;
+}
+.detail__information__item__description {
+  @extend %description-16;
+
+  max-width: 44rem;
+}
+.detail__information__link {
+  @extend %title-30;
+  display: inline-block;
+  margin-top: 3rem;
+}
+
+.detail__button {
+  align-items: center;
+  bottom: 5rem;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 12.4rem;
+  z-index: 2;
+}
+
+
+.detail__button__icon {
+  @extend %cover;
+}

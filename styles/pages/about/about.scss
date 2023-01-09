@@ -1,0 +1,14 @@
+.about {
+  background: $ocean-green;
+  color: $color-black;
+}
+.about__wrappper {
+  
+}
+.about__title {
+  @extend %title-100;
+
+  margin: auto;
+  max-width: 124rem;
+  text-align: center;
+}
